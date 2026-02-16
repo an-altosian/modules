@@ -10,7 +10,7 @@ process QCATCH {
     tuple val(meta), val(chemistry), path(quant_dir)
 
     output:
-    tuple val(meta), path("*.html")                         , emit: report
+    tuple val(meta), path("*.html")                , emit: report
     tuple val(meta), path("*_filtered_quants.h5ad") , emit: filtered_h5ad
     tuple val(meta), path("*_metrics_summary.csv")  , emit: metrics_summary
     path  "versions.yml"                                    , emit: versions

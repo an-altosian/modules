@@ -1,16 +1,4 @@
 {
-    "test_qcatch - 1k_pbmc_v3": {
-        "content": [
-            [
-                "versions.yml:md5,46f73aa6be1b23a13365040ab92e22af"
-            ]
-        ],
-        "meta": {
-            "nf-test": "0.9.3",
-            "nextflow": "25.10.3"
-        },
-        "timestamp": "2026-02-13T21:36:15.677759721"
-    },
     "test_qcatch - stub": {
         "content": [
             {
