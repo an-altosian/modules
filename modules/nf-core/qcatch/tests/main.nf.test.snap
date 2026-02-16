@@ -1,6 +1,7 @@
 {
     "test_qcatch - 1k_pbmc_v3": {
         "content": [
+            24801165,
             [
                 [
                     {
@@ -17,7 +18,7 @@
             "nf-test": "0.9.3",
             "nextflow": "25.10.2"
         },
-        "timestamp": "2026-02-16T17:16:50.990119693"
+        "timestamp": "2026-02-16T17:28:34.709197983"
     },
     "test_qcatch - stub": {
         "content": [
