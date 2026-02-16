@@ -6,14 +6,6 @@
                     {
                         "id": "1k_pbmc_v3"
                     },
-                    "1k_pbmc_v3_filtered_quants.h5ad:md5,07c8d60b86587c17b9a1669077564774"
-                ]
-            ],
-            [
-                [
-                    {
-                        "id": "1k_pbmc_v3"
-                    },
                     "1k_pbmc_v3_metrics_summary.csv:md5,22deb2f3aea4e4abf476970576362428"
                 ]
             ],
@@ -25,7 +17,7 @@
             "nf-test": "0.9.3",
             "nextflow": "25.10.2"
         },
-        "timestamp": "2026-02-16T17:04:51.044848026"
+        "timestamp": "2026-02-16T17:16:50.990119693"
     },
     "test_qcatch - stub": {
         "content": [
