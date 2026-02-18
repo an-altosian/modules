@@ -40,8 +40,8 @@ nextflow_process {
         then {
             assertAll(
                 { assert process.success },
-                { assert file(process.out.report.get(0).get(1)).exists() },
                 { assert snapshot(
+                    path(process.out.report.get(0).get(1)).size(),
                     path(process.out.filtered_h5ad.get(0).get(1)).size(),
                     process.out.metrics_summary,
                     process.out.versions
