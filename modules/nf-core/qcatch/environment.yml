@@ -5,4 +5,6 @@ channels:
   - bioconda
 
 dependencies:
-  - pip::qcatch==0.2.9
+  - conda-forge::pip
+  - pip:
+      - qcatch==0.2.9
