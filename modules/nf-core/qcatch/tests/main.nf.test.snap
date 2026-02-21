@@ -1,13 +1,13 @@
 {
     "test_qcatch - 1k_pbmc_v3": {
         "content": [
-            4049945,
+            5127487,
             [
                 [
                     {
                         "id": "1k_pbmc_v3"
                     },
-                    "1k_pbmc_v3_filtered_quants.h5ad:md5,0642f9ce60e77af039b00a99447c1aca"
+                    "1k_pbmc_v3_filtered_quants.h5ad:md5,2bf3a686b65c54d9e8f97c3f6728f354"
                 ]
             ],
             [
@@ -15,7 +15,7 @@
                     {
                         "id": "1k_pbmc_v3"
                     },
-                    "1k_pbmc_v3_metrics_summary.csv:md5,22deb2f3aea4e4abf476970576362428"
+                    "1k_pbmc_v3_metrics_summary.csv:md5,6a6523475f525570e3c276fee481c5a2"
                 ]
             ],
             [
@@ -26,7 +26,7 @@
             "nf-test": "0.9.3",
             "nextflow": "25.10.2"
         },
-        "timestamp": "2026-02-21T20:23:57.529740182"
+        "timestamp": "2026-02-21T20:42:26.779729787"
     },
     "test_qcatch - stub": {
         "content": [
