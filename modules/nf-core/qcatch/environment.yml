@@ -7,4 +7,4 @@ channels:
 dependencies:
   - conda-forge::pip=25.3
   - pip:
-      - qcatch==0.2.9
+      - qcatch==0.2.10

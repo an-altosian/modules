@@ -42,7 +42,7 @@ nextflow_process {
                 { assert process.success },
                 { assert snapshot(
                     path(process.out.report.get(0).get(1)).size(),
-                    path(process.out.filtered_h5ad.get(0).get(1)).size(),
+                    process.out.filtered_h5ad,
                     process.out.metrics_summary,
                     process.out.versions
                 ).match() }

@@ -2,7 +2,14 @@
     "test_qcatch - 1k_pbmc_v3": {
         "content": [
             4049945,
-            30420826,
+            [
+                [
+                    {
+                        "id": "1k_pbmc_v3"
+                    },
+                    "1k_pbmc_v3_filtered_quants.h5ad:md5,0642f9ce60e77af039b00a99447c1aca"
+                ]
+            ],
             [
                 [
                     {
@@ -12,14 +19,14 @@
                 ]
             ],
             [
-                "versions.yml:md5,5468a35290c060b3a9aac0fb616945b2"
+                "versions.yml:md5,85d6c24bb4fe57161bd6b9ee6493d1e7"
             ]
         ],
         "meta": {
             "nf-test": "0.9.3",
             "nextflow": "25.10.2"
         },
-        "timestamp": "2026-02-18T18:06:35.587139405"
+        "timestamp": "2026-02-21T17:42:42.767783832"
     },
     "test_qcatch - stub": {
         "content": [
@@ -49,7 +56,7 @@
                     ]
                 ],
                 "3": [
-                    "versions.yml:md5,5468a35290c060b3a9aac0fb616945b2"
+                    "versions.yml:md5,85d6c24bb4fe57161bd6b9ee6493d1e7"
                 ],
                 "filtered_h5ad": [
                     [
@@ -76,7 +83,7 @@
                     ]
                 ],
                 "versions": [
-                    "versions.yml:md5,5468a35290c060b3a9aac0fb616945b2"
+                    "versions.yml:md5,85d6c24bb4fe57161bd6b9ee6493d1e7"
                 ]
             }
         ],
@@ -84,6 +91,6 @@
             "nf-test": "0.9.3",
             "nextflow": "25.10.2"
         },
-        "timestamp": "2026-02-18T17:56:27.921194601"
+        "timestamp": "2026-02-21T17:43:06.660613547"
     }
 }

@@ -4,8 +4,8 @@ process QCATCH {
 
     conda "${moduleDir}/environment.yml"
     container "${ workflow.containerEngine == 'singularity' && !task.ext.singularity_pull_docker_container ?
-        'oras://community.wave.seqera.io/library/pip_qcatch:a0a9124e7e5e80f5':
-        'community.wave.seqera.io/library/pip_qcatch:0c71f79b677c9b0a' }"
+        'oras://community.wave.seqera.io/library/pip_qcatch:8724a2c532e66d32':
+        'community.wave.seqera.io/library/pip_qcatch:53608d4be3a1da01' }"
     input:
     tuple val(meta), val(chemistry), path(quant_dir)
 
